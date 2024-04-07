@@ -51,14 +51,14 @@ let HEAT_LOWPRICE = { timePeriod: 0, heatingTime: 0, isFcstUsed: false };
 let s = {
     heatingMode: HEAT24H_FCST,  // HEATING MODE. Different heating modes described above.
     elektrilevi: VORK2KUU,      // ELEKTRILEVI transmission fee: VORK1 / VORK2 / VORK2KUU / VORK4 / NONE
-    alwaysOnLowPrice: 10,       // Keep heating always ON if energy price lower than this value (EUR/MWh)
-    alwaysOffHighPrice: 300,    // Keep heating always OFF if energy price higher than this value (EUR/MWh)
+    alwaysOnLowPrice: 110,       // Keep heating always ON if energy price lower than this value (EUR/MWh)
+    alwaysOffHighPrice: 111,    // Keep heating always OFF if energy price higher than this value (EUR/MWh)
     isOutputInverted: false,    // Configures the relay state to either normal or inverted. (inverted required by Nibe, Thermia)
     relayID: 0,                 // Shelly relay ID
     defaultTimer: 60,           // Default timer duration, in minutes, for toggling the Shelly state.
     country: "ee",              // Estonia-ee, Finland-fi, Lithuania-lt, Latvia-lv
-    heatingCurve: 0,            // Shifting heating curve to the left or right, check the tables below. Shift by 1 equals 1h. 
-    powerFactor: 0.5,           // Adjusts the heating curve to be either more flat or more aggressive (0 -> flat, 1 -> steep).
+    heatingCurve: 10,            // Shifting heating curve to the left or right, check the tables below. Shift by 1 equals 1h. 
+    powerFactor: 1,           // Adjusts the heating curve to be either more flat or more aggressive (0 -> flat, 1 -> steep).
 }
 /****** USER SETTINGS, END OF MODIFICATION ******/
 
