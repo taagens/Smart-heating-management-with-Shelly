@@ -14,7 +14,7 @@ https://github.com/LeivoSepp/Smart-heating-management-with-Shelly
 /* Elektrilevi electricity transmission fees (EUR/MWh): */
 let VORK1 = { dayRt: 72, nightRt: 72 };
 let VORK2 = { dayRt: 87, nightRt: 50 };
-let VORK2KUU = { dayRt: 56, nightRt: 33 };
+let VORK2KUU = { dayRt: 70, nightRt: 40 };
 let VORK4 = { dayRt: 37, nightRt: 21 };
 let NONE = { dayRt: 0, nightRt: 0 };
 
