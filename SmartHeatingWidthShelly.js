@@ -58,7 +58,7 @@ let s = {
     defaultTimer: 60,           // Default timer duration, in minutes, for toggling the Shelly state.
     country: "ee",              // Estonia-ee, Finland-fi, Lithuania-lt, Latvia-lv
     heatingCurve: 10,            // Shifting heating curve to the left or right, check the tables below. Shift by 1 equals 1h. 
-    powerFactor: 0,           // Adjusts the heating curve to be either more flat or more aggressive (0 -> flat, 1 -> steep).
+    powerFactor: 1,           // Adjusts the heating curve to be either more flat or more aggressive (0 -> flat, 1 -> steep).
 }
 /****** USER SETTINGS, END OF MODIFICATION ******/
 
