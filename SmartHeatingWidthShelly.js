@@ -49,7 +49,7 @@ let HEAT_LOWPRICE = { timePeriod: 0, heatingTime: 0, isFcstUsed: false };
 
 /****** USER SETTINGS, START MODIFICATION ******/
 let s = {
-    heatingMode: HEAT24H_FCST,  // HEATING MODE. Different heating modes described above.
+    heatingMode: HEAT12H_FCST,  // HEATING MODE. Different heating modes described above.
     elektrilevi: VORK2KUU,      // ELEKTRILEVI transmission fee: VORK1 / VORK2 / VORK2KUU / VORK4 / NONE
     alwaysOnLowPrice: 110,       // Keep heating always ON if energy price lower than this value (EUR/MWh)
     alwaysOffHighPrice: 111,    // Keep heating always OFF if energy price higher than this value (EUR/MWh)
