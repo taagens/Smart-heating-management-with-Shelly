@@ -149,7 +149,7 @@ function setAutoStart() {
 }
 /* set the default script library */
 function setKvsScrLibr() {
-    Shelly.call("KVS.set", { key: "scripts-library", value: '{"url": "https://raw.githubusercontent.com/LeivoSepp/Smart-heating-management-with-Shelly/master/manifest.json"}' });
+    Shelly.call("KVS.set", { key: "scripts-library", value: '{"url": "https://raw.githubusercontent.com/taagens/Smart-heating-management-with-Shelly/master/manifest.json"}' });
 }
 
 /*
