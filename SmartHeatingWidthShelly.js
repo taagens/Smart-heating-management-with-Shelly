@@ -40,7 +40,7 @@ heatingMode.heatingTime: Heating Time is the duration of the cheapest hours with
 heatingMode.isFcstUsed: true/false - Using weather forecast to calculate heating duration.
 */
 let s = {
-    heatingMode: { timePeriod: 12, heatingTime: 12, isFcstUsed: false }, // HEATING MODE. Different heating modes described above.
+    heatingMode: { timePeriod: 0, heatingTime: 0, isFcstUsed: false }, // HEATING MODE. Different heating modes described above.
     elektrilevi: "VORK4",      // ELEKTRILEVI/IMATRA transmission fee: VORK1 / VORK2 / VORK4 /VORK5 / Partner24 / Partner24Plus / Partner12 / Partner12Plus / NONE
     alwaysOnLowPrice: 77,       // Keep heating always ON if energy price lower than this value (EUR/MWh)
     alwaysOffHighPrice: 78,    // Keep heating always OFF if energy price higher than this value (EUR/MWh)
