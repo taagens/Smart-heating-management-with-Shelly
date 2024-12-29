@@ -43,7 +43,7 @@ let s = {
     heatingMode: { timePeriod: 12, heatingTime: 0, isFcstUsed: false }, // HEATING MODE. Different heating modes described above.
     elektrilevi: "VORK4",      // ELEKTRILEVI/IMATRA transmission fee: VORK1 / VORK2 / VORK4 /VORK5 / Partner24 / Partner24Plus / Partner12 / Partner12Plus / NONE
     alwaysOnLowPrice: 77,       // Keep heating always ON if energy price lower than this value (EUR/MWh)
-    alwaysOffHighPrice: 111,    // Keep heating always OFF if energy price higher than this value (EUR/MWh)
+    alwaysOffHighPrice: 78,    // Keep heating always OFF if energy price higher than this value (EUR/MWh)
     isOutputInverted: false,    // Configures the relay state to either normal or inverted. (inverted required by Nibe, Thermia)
     relayID: 0,                 // Shelly relay ID
     defaultTimer: 60,           // Default timer duration, in minutes, for toggling the Shelly state.
